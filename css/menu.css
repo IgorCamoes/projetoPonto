@@ -111,7 +111,7 @@ nav > div{
 .pontoDia{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     border-left: 2px solid blue;
     width: 25%;
     text-align: center;
