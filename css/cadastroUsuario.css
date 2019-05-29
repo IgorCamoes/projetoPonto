@@ -13,8 +13,8 @@ a{
     color: black;
 }
 
-.modalMenu {
-    display: none;
+.modalCad {
+    display: flex;
     position: fixed;
     justify-content: center;
     align-items: center;
@@ -84,36 +84,3 @@ nav > div{
     justify-content: space-around;
     width: 80%;
 }
-
-.menuCont{
-    width: 95%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.botoesMenu{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-}
-.botoesAdmin{
-    display: none;
-}
-
-.selecaoMenu, .ancorasMenu{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 80%;
-}
-
-.pontoDia{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-left: 2px solid blue;
-    width: 25%;
-    text-align: center;
-}
-
