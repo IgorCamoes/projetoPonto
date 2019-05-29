@@ -5,4 +5,4 @@ function chamarAjuda(){
     ajudaSenha.classList.toggle("active");
 }
 
-ajudaHover.onclick = chamarAjuda;
+ajudaHover.onmouseover = chamarAjuda;

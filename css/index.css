@@ -60,4 +60,6 @@ form{
     justify-content: center;
 }
 
-body > div:last-child:hover 
+.active{
+    visibility: visible;
+}

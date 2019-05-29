@@ -14,7 +14,7 @@ a{
 }
 
 .modalCad {
-    display: flex;
+    display: none;
     position: fixed;
     justify-content: center;
     align-items: center;
@@ -83,4 +83,41 @@ nav > div{
     display: flex;
     justify-content: space-around;
     width: 80%;
+}
+
+.cadastroCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+}
+
+.formCont{
+    background-color: cadetblue;
+    height: 70%;
+    width: 40%;
+    display:flex;
+    justify-content: center;
+    border: 1px solid navy;
+}
+
+
+
+form select{
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+form div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
