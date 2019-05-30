@@ -1,6 +1,6 @@
 let spanFechar = document.querySelector('.fechaModal');
 let menuModal = document.querySelector('.modalMenu');
-let confMsg = document.querySelector('.modalConteudo > p:first-child')
+let confMsg = document.querySelector('.modalConteudo > p:first-child');
 let ancoras = document.querySelectorAll('.ancorasMenu h3');
 let hmbSpan = document.querySelector('nav > div > div:last-child');
 let pontoDia = document.querySelector('.pontoDia');

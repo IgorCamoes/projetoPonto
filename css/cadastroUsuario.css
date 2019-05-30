@@ -142,5 +142,8 @@ form div{
         display: none;
     }
 
-    
+    .formCont{
+        width: 90%;
+    }
+
 }

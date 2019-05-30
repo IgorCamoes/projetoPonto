@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../static/favicon.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="../css/cadastroUsuario.css">
     <script defer src="../scripts/cadastroUsuario.js"></script>
-    <title>Document</title>
+    <title>Cadastro de funcionário</title>
 </head>
 <body>
     <div class='modalCad'>
@@ -16,8 +17,8 @@
                 <span class="fechaModal">&times;</span>
             </div>
             <div class="modalConteudo">
-                <p>Usuário cadastrado com sucesso</p>
-                <p>Hora: HH:MM:SS</p>
+                <p>Usuário <span>USERNAME</span> cadastrado com sucesso</p>
+                <p>Senha: <span>PASSWORD</span></p>
             </div>
         </div>
     </div>
@@ -34,11 +35,11 @@
         <div class="formCont">
             <form method="POST">
                 <label for="">Nome</label>
-                <input type="text" name="Nome" id="">
+                <input type="text" name="Nome" id="usuario" value="">
                 <label for="">Funcional</label>
                 <input type="text" name="Nome" id="">
                 <label for="">CPF</label>
-                <input type="text" name="Nome" id="">
+                <input type="text" name="Nome" id="" maxlength="11">
                 <label for="">Cargo</label>
                 <select name="" id="">
                     <option value="">Analista</option>
@@ -50,7 +51,7 @@
                     <option value="">6 horas</option>
                 </select>
                 <div class="botaoForm">
-                    <input type="submit" value="Cadastrar">
+                    <input type="button" value="Cadastrar">
                     <a href="menu.html"><input type="button" value="Voltar"></a>
                 </div>
             </form>
