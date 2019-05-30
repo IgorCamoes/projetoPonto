@@ -6,6 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Merriweather', serif;
 }
 
 a{
@@ -120,4 +121,26 @@ form div{
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+
+@media (max-width: 425px){
+
+    nav{
+        font-size: 10pt;
+        justify-content: center;
+    }
+
+    nav > div{
+        width: 95%;
+    }
+
+    nav > div > p:nth-child(2){
+        display: none;
+    }
+
+    nav > div > a{
+        display: none;
+    }
+
+    
 }

@@ -6,6 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Merriweather', serif;
 }
 
 a{
@@ -68,4 +69,32 @@ table{
 
 tr:nth-child(even){
     background-color: #dddddd;
+}
+
+@media (max-width: 425px){
+    nav{
+        font-size: 10pt;
+        justify-content: center;
+    }
+
+    nav > div{
+        width: 95%;
+    }
+
+    nav > div > p:nth-child(2){
+        display: none;
+    }
+
+    nav > div > a{
+        display: none;
+    }
+
+    .dadosUser div{
+        flex-direction: column;
+        height: 20%;
+    }
+
+    .dadosUser div h4{
+        margin-bottom: 0;
+    }
 }

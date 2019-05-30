@@ -1,4 +1,4 @@
-let ajudaHover = document.querySelector(".ttHover > h5");
+let ajudaHover = document.querySelector(".ttHover");
 let ajudaSenha = document.querySelector(".ttSpan");
 
 function chamarAjuda(){
@@ -6,3 +6,4 @@ function chamarAjuda(){
 }
 
 ajudaHover.onmouseover = chamarAjuda;
+ajudaHover.onmouseout = chamarAjuda;
