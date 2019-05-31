@@ -67,8 +67,16 @@ table{
     text-align: justify;
 }
 
-tr:nth-child(even){
+table th{
+    width: 10%;
+}
+
+.trMensal:nth-child(even){
     background-color: #dddddd;
+}
+
+.modalAjs{
+    display: none;
 }
 
 @media (max-width: 425px){

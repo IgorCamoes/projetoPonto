@@ -14,7 +14,7 @@
         <div>
             <p>Olá, USER_FIRSTNAME</p>
             <p>Data: DD/MM/AA</p>
-            <p>Hora atual: HH:MM:SS</p>
+            <p>HH:MM:SS</p>
             <a href="index.html"><h5>Logout</h5></a>
         </div>
     </nav>
@@ -30,35 +30,36 @@
                     <h4>Cargo: </h4>
                     <p>Analista</p>
                 </div>
+                <div>
+                    <h4>Total horas:</h4>
+                    <p></p>
+                </div>
             </div>
             <div class="tbUser">
                 <table>
                     <tr>
+                        <th>Tipo</th>
                         <th>Dia</th>
-                        <th>Entrada</th>
-                        <th>Saída</th>
-                        <th>Total Horas</th>
-                    </tr>
-                    <tr>
-                        <td>27/05/2019</td>
-                        <td>08:00:00</td>
-                        <td>11:00:00</td>
-                        <td>03:00:00</td>
-                    </tr>
-                    <tr>
-                        <td>27/05/2019</td>
-                        <td>12:00:00</td>
-                        <td>15:00:00</td>
-                        <td>06:00:00</td>
-                    </tr>
-                    <tr>
-                        <td>27/05/2019</td>
-                        <td>15:30:00</td>
-                        <td>16:00:00</td>
-                        <td>06:30:00</td>
+                        <th>Hora</th>
                     </tr>
                 </table>
                 <a href="menu.html"><button>Voltar</button></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class='modalAjs'>
+        <div class="modalCont">
+            <div class="spanModal">
+                <span class="fechaModal">&times;</span>
+            </div>
+            <div class="modalConteudo">
+                <h5>Dia:<p><span>a?</span></p></h5>
+                <select name="" id="selDia">
+                    <option value="ENTRADA">Entrada</option>
+                    <option value="SAIDA">Saída</option>
+                </select>
+                
             </div>
         </div>
     </div>
